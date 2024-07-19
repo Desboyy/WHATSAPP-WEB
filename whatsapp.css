@@ -1,0 +1,22 @@
+ *{ margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+ }
+.left {
+    background-color: aquamarine;
+    width: 30%;
+    height: 100%;
+}
+
+ img{
+    width: 30%;
+    height: 5%;
+
+}
+
+
+.meta img{
+    height: 16px;
+    width: 20px;
+}
