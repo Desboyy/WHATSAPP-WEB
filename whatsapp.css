@@ -1,18 +1,20 @@
- *{ margin: 0;
+*{ margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
     color: #aebac1;
     font-family: sans-serif;
- }
+}
 
  body{
     display: flex;
-    width: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
+
 .left {
     background-color: #111b21;
-    width: 70%;
+    width: 30%;
     height: 100vh;
 }
 .head{
@@ -26,10 +28,14 @@
     margin-left: 10px;
     height: 40px;
     border-radius: 50%;
-}
+    }
 }
 
-
+.conversation img{
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+}
 
 .toggle{
     display:flex;
@@ -42,6 +48,7 @@
         width: 20px;
     }
 }
+
 .Option ul{
     display: flex;
     margin-left: 15px;
@@ -83,28 +90,103 @@ input:focus{
 
 .right-box{
 background-color: #222E35;
-width: 100%;
+width: 70%;
 height: 100vh;
 text-align: center;
-padding: 120px;
+padding: 100px;
 
 
 }
-.chat img{
-width: 60%;
-height: 60%;
-}
+
 h1{
     font-family: inherit
     color: #e9edefe0;
 }
+
 h2{
     font-family: inherit;
     color: #AEBAC1;
-}
-._al_x{
+} 
+
+.encrypt{
     padding: 12%;
     font-size: small;
     font-family: 14px;
     color: #667781;
+ }  
+
+
+button{
+    border-radius: 40px;
+    padding: 10px 24px;
+    font-weight: bold;
+    background-color: #00a884;
+    color: black;
+    border: 0;
+ }
+
+ .chat{
+    display: flex;
+     margin-left:1.5%;
+     padding-top: 10px;
+     align-items: center;
+ }
+ .chat img{
+    border-radius: 60px;
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+ }
+
+  .chatt{
+    display: flex;
+    margin-left:1.5%;
+    padding-top: 10px;
+    align-items: center;
+ }
+
+  .chatt img{
+    border-radius: 60px;
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+ }
+
+ .chattt{
+    display: flex;
+    margin-left: 1.5%;
+    padding-top: 10px;
+    align-items: center;
+ }
+.chattt img{
+    border-radius: 60px;
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+
+.chatttt{
+    display: flex;
+    margin-left: 1.5%;
+    padding-top: 10px;
+    align-items: center;
+ }
+.chatttt img{
+    border-radius: 60px;
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+
+.chattttt{
+    display: flex;
+    margin-left: 1.5%;
+    padding-top: 10px;
+    align-items: center;
+ }
+.chattttt img{
+    border-radius: 60px;
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
 }
